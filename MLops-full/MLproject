@@ -1,0 +1,10 @@
+name: logist_regression_titanic
+python_env: python_env.yaml
+entry_points:
+    main:
+        parameters:
+            C: {type: float, default: 1.0}
+            max_iter: {type: int, default: 100}
+
+        command:
+            python3 train.py --C={C} --max_iter={max_iter}
