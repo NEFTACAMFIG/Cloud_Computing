@@ -1,11 +1,12 @@
-Creación de APIS usando maquina virtual
+# Creación de APIS usando maquina virtual
 
-1. Lanzar una instancia en AWS 
-2. Si se creo una llave darle los permisos y conectarse con el comando ssh
-3. Preparar el setup desde la terminal
-	4. 3.1 Actualizar la maquina `sudo apt-get update`
-	3.2 Instalar PIP `sudo apt install python3-pip`
-	3.3 Realizar nuevamente un Update `sudo apt-get update`
+* 1. Lanzar una instancia en AWS 
+* 2. Si se creo una llave darle los permisos y conectarse con el comando ssh
+* 3. Preparar el setup desde la terminal
+    * 3.1 Actualizar la maquina `sudo apt-get update`
+    * 3.2 Instalar PIP `sudo apt install python3-pip`
+    * 3.3 Realizar nuevamente un Update `sudo apt-get update`	
+	
 5. Instalar el venv `sudo apt-get install python3-venv`
 6. Crear ambiente virtual
 	5.1 Crear carpeta para los ambientes virtuales `mkdir “Nombre del proyecto”`
