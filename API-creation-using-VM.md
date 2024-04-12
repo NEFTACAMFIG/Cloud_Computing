@@ -32,3 +32,10 @@ I. Generar un nuevo proyecto en Pycharm
 9. Correr la api desde la terminal
 	9.1 python3 Nombre de la API.py
 10. La API se puede correr abriendo el navegador y usando la DNS Pública: Puerto/? Entrada_1= Valor & Entrada_2= Valor 
+
+* Item 1
+* Item 2
+* Item 3
+    * Item 3a
+    * Item 3b
+    * Item 3c
