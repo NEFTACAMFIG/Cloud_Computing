@@ -17,10 +17,10 @@
 
 ## UNIR PYCHARM CON EL AMBIENTE VIRTUAL CREADO EN LA MAQUINA VIRTUAL ##
 
-I. Generar un nuevo proyecto en Pycharm
-	I.I Eliminar el ambiente virtual que se creo
-	I.II Ir a settings y después Project
-	I.III Ir a Python Interprete y dar click en Agregar Interprete, dar click en SSH
+6. Generar un nuevo proyecto en Pycharm
+	- 6.1 Eliminar el ambiente virtual que se creo
+	- 6.2 Ir a settings y después Project
+	- 6.3  Ir a Python Interprete y dar click en Agregar Interprete, dar click en SSH
 	I.IV Dar el Host y el username Host: DNS Publico Username: Ubuntu
 	I.V Indicar como conexión nueva y dar en NEXT
 	I.VI Validar con una llave, seleccionar la llave generada en AWS, DAR NEXT
