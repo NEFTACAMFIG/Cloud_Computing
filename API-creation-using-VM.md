@@ -20,13 +20,14 @@
 6. Generar un nuevo proyecto en Pycharm
 	- 6.1 Eliminar el ambiente virtual que se creo
 	- 6.2 Ir a settings y después Project
-	- 6.3  Ir a Python Interprete y dar click en Agregar Interprete, dar click en SSH
-	I.IV Dar el Host y el username Host: DNS Publico Username: Ubuntu
-	I.V Indicar como conexión nueva y dar en NEXT
-	I.VI Validar con una llave, seleccionar la llave generada en AWS, DAR NEXT
-	I.VII Escoger una locación, el interprete y el folder en donde se va a sincronizar (Todo esto en la maquina virtual)
-	I.VIII Dar en crear, apply y OK
-6. Activar el ambiente virtual
+	- 6.3 Ir a Python Interprete y dar click en Agregar Interprete, dar click en SSH
+	- 6.4 Dar el Host y el username Host: DNS Publico Username: Ubuntu
+	- 6.5 Indicar como conexión nueva y dar en NEXT
+	- 6.6 Validar con una llave, seleccionar la llave generada en AWS, DAR NEXT
+	- 6.7 Escoger una locación, el interprete y el folder en donde se va a sincronizar (Todo esto en la maquina virtual)
+	- 6.8 Dar en crear, apply y OK
+
+7. Activar el ambiente virtual
 	6.1 Nombre del ambiente/bin/activate
 7. Instalar librerías y paquetes
 	7.1 pip install pandas
