@@ -15,7 +15,8 @@
 	  - 5.2.1 Aquí se crea el ambiente virtual `python3 -m venv “Nombre de la API”`	
 		
 
-UNIR PYCHARM CON EL AMBIENTE VIRTUAL CREADO EN LA MAQUINA VIRTUAL
+## UNIR PYCHARM CON EL AMBIENTE VIRTUAL CREADO EN LA MAQUINA VIRTUAL ##
+
 I. Generar un nuevo proyecto en Pycharm
 	I.I Eliminar el ambiente virtual que se creo
 	I.II Ir a settings y después Project
@@ -36,9 +37,3 @@ I. Generar un nuevo proyecto en Pycharm
 	9.1 python3 Nombre de la API.py
 10. La API se puede correr abriendo el navegador y usando la DNS Pública: Puerto/? Entrada_1= Valor & Entrada_2= Valor 
 
-* Item 1
-* Item 2
-* Item 3
-    * Item 3a
-    * Item 3b
-    * Item 3c
