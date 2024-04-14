@@ -28,13 +28,13 @@
 	- 6.8 Dar en crear, apply y OK
 
 7. Activar el ambiente virtual
-	6.1 Nombre del ambiente/bin/activate
-7. Instalar librerías y paquetes
-	7.1 pip install pandas
-	7.2 pip install -U scikit-learn
-	7.3 pip install flask
-8. Crear archivo en Python para que se ejecute el API
-9. Correr la api desde la terminal
-	9.1 python3 Nombre de la API.py
-10. La API se puede correr abriendo el navegador y usando la DNS Pública: Puerto/? Entrada_1= Valor & Entrada_2= Valor 
+	- 7.1 Nombre del ambiente/bin/activate
+8. Instalar librerías y paquetes
+	- 8.1 `pip install pandas`
+	- 8.2 `pip install -U scikit-learn`
+	- 8.3 `pip install flask` 
+9. Crear archivo en Python para que se ejecute el API
+10. Correr la api desde la terminal
+	- 10.1 `python3 Nombre de la API.py`
+11. La API se puede correr abriendo el navegador y usando la DNS Pública: Puerto/? Entrada_1= Valor & Entrada_2= Valor 
 
