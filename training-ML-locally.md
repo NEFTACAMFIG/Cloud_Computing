@@ -12,11 +12,11 @@
 	- 3.1 `pip install pandas`
 	- 3.2 `pip install -U scikit-learn`
 	- 3.3 `pip install mlflow[extras]`
-5. Crear script de Python
-	4.1 Correr los experimentos desde la linea de comando
-6. Inicializar servidor de MLFlow
-	5.1 Escribir en la linea de comando mlflow ui
-	5.2 Abrir una nueva pestaña de internet y escribir localhost:5000 para acceder al servidor de 	MLFlow
-7. Interactuar con la interfaz de usuario de MLFlow
-	6.1 control + Z para parar el experimento
-``
+4. Crear script de Python
+	- 4.1 Correr los experimentos desde la linea de comando
+5. Inicializar servidor de MLFlow
+	- 5.1 Escribir en la linea de comando mlflow ui
+	- 5.2 Abrir una nueva pestaña de internet y escribir localhost:5000 para acceder al servidor de MLFlow
+6. Interactuar con la interfaz de usuario de MLFlow
+	- 6.1 control + Z para parar el experimento
+
