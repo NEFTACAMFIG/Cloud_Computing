@@ -33,9 +33,10 @@
 		- 8.3.1 Dar `YES`
 
 9. Generar el SETUP para la maquina virtual
-	9.1 Actualizar la maquina sudo apt-get update
-	9.2 Instalar PIP sudo apt-get -y install python3-pip
-	9.3 Se puede utilizar pip list  para checar todos los paquetes que se instalaron
+	- 9.1 Actualizar la maquina `sudo apt-get update`
+	- 9.2 Instalar PIP `sudo apt-get -y install python3-pip`
+	- 9.3 Se puede utilizar `pip list`  para checar todos los paquetes que se instalaron
+   
 11. Generar SETUP para trabajar con MLFlow
 	10.1 Actualizar antes de instalar cualquier dependencia 
 	10.2 Instalar el PYENV sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
