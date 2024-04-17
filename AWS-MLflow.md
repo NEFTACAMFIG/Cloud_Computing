@@ -19,15 +19,20 @@
 	- 4.2 Dar click al buton de `EDITAR`
 		- 4.2.1 Dar click a `AGREGAR REGLA DEL GRUPO DE SEGURIDAD`
 		- 4.2.2 Dar de alta los puertos `1234`, `3737`, `5000` y `8787` con Tipo de Origen `CUALQUIER LUGAR`
-5. Dar click en LANZAR INSTANCIA
-7. Dar click en botón VER TODAS LAS INSTANCIAS
-8. Abrir la terminal
-9. Crear o ir a la carpeta en donde se guardaran o se guardaron las claves
-	8.1 Para copiar la llave en la carpeta se puede utilizar cp ~/Downloads/“Nombre de la clave” .
-	8.2 Cambiar los permisos para la clave chmod 600 “nombre de la clave”
-	8.3 Conectarnos a la maquina virtual ssh -i “Nombre de la clave” username@serverIP
-		8.3.1 Dar YES
-10. Generar el SETUP para la maquina virtual
+
+5. Dar click en `LANZAR INSTANCIA`
+   
+6. Dar click en botón `VER TODAS LAS INSTANCIAS`
+   
+7. Abrir la terminal
+   
+8. Crear o ir a la carpeta en donde se guardaran o se guardaron las claves
+	- 8.1 Para copiar la llave en la carpeta se puede utilizar `cp ~/Downloads/“Nombre de la clave”`
+	- 8.2 Cambiar los permisos para la clave `chmod 600 “nombre de la clave”`
+	- 8.3 Conectarnos a la maquina virtual `ssh -i “Nombre de la clave” username@serverIP`
+		- 8.3.1 Dar `YES`
+
+9. Generar el SETUP para la maquina virtual
 	9.1 Actualizar la maquina sudo apt-get update
 	9.2 Instalar PIP sudo apt-get -y install python3-pip
 	9.3 Se puede utilizar pip list  para checar todos los paquetes que se instalaron
