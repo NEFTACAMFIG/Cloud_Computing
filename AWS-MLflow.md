@@ -5,18 +5,21 @@
 	- 1.3 Eliminar instancias en ejecución si hay  alguna corriendo
 		- 1.3.1 Ir al estado de la estancia
 		- 1.3.2	Terminar estancia
+
 2. Ir a Lanzar Instancia
 	- 2.1 Seleccionar sistema operativo Ubuntu ya que es de código abierto
 	- 2.2 Seleccionar un nombre para la instancia
 	- 2.3 Seleccionar una máquina de acuerdo a nuestras necesidades de procesamiento
+
 3. Generar claves
 	- 3.1 Las claves deben ser del tipo RSA y .pem para correrlas en Ubuntu
-5. Configuración de redes ( Restricciones dependen de los requerimientos de las empresas)
-	4.1 Permitir el trafico de HTTPS y permitir el trafico HTTP desde internet
-	4.2 Dar click al buton de EDITAR
-		4.2.1 Dar click a AGREGAR REGLA DEL GRUPO DE SEGURIDAD
-		4.2.2 Dar de alta los puertos 1234, 3737, 5000 y 8787 con Tipo de Origen CUALQUIER LUGAR
-6. Dar click en LANZAR INSTANCIA
+
+4. Configuración de redes ( Restricciones dependen de los requerimientos de las empresas)
+	- 4.1 Permitir el trafico de HTTPS y permitir el trafico HTTP desde internet
+	- 4.2 Dar click al buton de `EDITAR`
+		- 4.2.1 Dar click a `AGREGAR REGLA DEL GRUPO DE SEGURIDAD`
+		- 4.2.2 Dar de alta los puertos `1234`, `3737`, `5000` y `8787` con Tipo de Origen `CUALQUIER LUGAR`
+5. Dar click en LANZAR INSTANCIA
 7. Dar click en botón VER TODAS LAS INSTANCIAS
 8. Abrir la terminal
 9. Crear o ir a la carpeta en donde se guardaran o se guardaron las claves
