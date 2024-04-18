@@ -37,14 +37,16 @@
 	- 9.2 Instalar PIP `sudo apt-get -y install python3-pip`
 	- 9.3 Se puede utilizar `pip list`  para checar todos los paquetes que se instalaron
    
-11. Generar SETUP para trabajar con MLFlow
-	10.1 Actualizar antes de instalar cualquier dependencia 
-	10.2 Instalar el PYENV sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
-12. git clone https://github.com/pyenv/pyenv.git ~/.pyenv 
-	11.1 export PYENV_ROOT=“$HOME/.pyenv”
-	11.2 export PATH=“$PYENV_ROOT/bin:$PATH”
-	11.3 source ~/.bashrc and pyenv --version
-	*11.4 eval “$(pyenv init --path)”
+10. Generar SETUP para trabajar con MLFlow
+	- 10.1 Actualizar antes de instalar cualquier dependencia
+	- 10.2 Instalar el PYENV `sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev`
+
+11. `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
+	- 11.1 `export PYENV_ROOT=“$HOME/.pyenv”`
+	- 11.2 `export PATH=“$PYENV_ROOT/bin:$PATH”`
+	- 11.3 `source ~/.bashrc and pyenv --version`
+	- *11.4 `eval “$(pyenv init --path)”`
+
 13. Instalar el VENV
 	12.1 Crear carpeta para proyecto mkdir “Nombre de la carpeta”
 	12.2 sudo apt install python3.8-venv Checar version de Python
