@@ -47,11 +47,12 @@
 	- 11.3 `source ~/.bashrc and pyenv --version`
 	- *11.4 `eval “$(pyenv init --path)”`
 
-13. Instalar el VENV
-	12.1 Crear carpeta para proyecto mkdir “Nombre de la carpeta”
-	12.2 sudo apt install python3.8-venv Checar version de Python
-	12.3 python3 -m venv mlflowtrck (mlflowtrck es el nombre del ambiente)
-	12.4 Activar el ambiente virtual source “nombre del ambiente”/bin/activate
+12. Instalar el VENV
+	- 12.1 Crear carpeta para proyecto `mkdir “Nombre de la carpeta”`
+	- 12.2 `sudo apt install python3.8-venv` Checar version de Python
+	- 12.3 `python3 -m venv mlflowtrck` (mlflowtrck es el nombre del ambiente)
+	- 12.4 Activar el ambiente virtual `source “nombre del ambiente”/bin/activate`
+
 14. Instalar librerías necesarias para el ambiente virtual
 	13.1 pip install pandas
 	13.2 pip install -U scikit-learn
