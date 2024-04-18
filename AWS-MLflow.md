@@ -53,17 +53,17 @@
 	- 12.3 `python3 -m venv mlflowtrck` (mlflowtrck es el nombre del ambiente)
 	- 12.4 Activar el ambiente virtual `source “nombre del ambiente”/bin/activate`
 
-14. Instalar librerías necesarias para el ambiente virtual
+13. Instalar librerías necesarias para el ambiente virtual
 	- 13.1 `pip install pandas`
 	- 13.2 `pip install -U scikit-learn`
 	- 13.3 `pip install mlflow[extras]`
 	- 13.4 Se puede checar las dependencias instaladas con `pip list ! grep “Nombre de la dependencia”`
 
-15. Crear script con nano
-	14.1 nano “Nombre del archivo”.py 	
-		14.1.1 control + O + enter para sobrescribir 
-		14.1.2 control + X para salir 
-		14.1.3 checar si existe el script con cat “nombre del script”
+14. Crear script con nano
+	- 14.1 `nano “Nombre del archivo”.py`
+		- 14.1.1 `control + O + enter` para sobrescribir
+		- 14.1.2 `control + X` para salir
+		- 14.1.3 checar si existe el script con `cat “nombre del script”`
 17. Correr experimentos
 18. Abrir la interfaz de MLFlow
 	16.1 mlflow ui --host=0.0.0.0
