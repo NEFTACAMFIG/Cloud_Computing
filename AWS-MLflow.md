@@ -64,8 +64,8 @@
 		- 14.1.1 `control + O + enter` para sobrescribir
 		- 14.1.2 `control + X` para salir
 		- 14.1.3 checar si existe el script con `cat “nombre del script”`
-17. Correr experimentos
-18. Abrir la interfaz de MLFlow
-	16.1 mlflow ui --host=0.0.0.0
-	16.2 Se puede acceder con la DNS Publica:5000
-	16.3 control + C para cancelar el experimento
+15. Correr experimentos
+16. Abrir la interfaz de MLFlow
+	- 16.1 `mlflow ui --host=0.0.0.0`
+	- 16.2 Se puede acceder con la DNS Publica:5000
+	- 16.3 `control + C` para cancelar el experimento
