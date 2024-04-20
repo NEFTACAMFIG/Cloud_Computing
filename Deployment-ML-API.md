@@ -21,4 +21,8 @@
   - 1.4 Dar el Host y el username Host: DNS Publico Username: Ubuntu
   - 1.5 Indicar como conexión nueva y dar en `NEXT`
   - 1.6 Validar con una llave, seleccionar la llave generada en AWS, DAR `NEXT`
-  - 1.7 Escoger una locación, el interprete y el folder en donde se va a sincronizar
+  - 1.7 Escoger una locación, el interprete y el folder en donde se va a sincronizar(Todo esto en la maquina virtual)
+  - 1.8 Dar en `crear`, `apply` y `OK`
+
+2. Instalar el PYENV `sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev`
+  - 2.1 `sudo apt-get install openssl`
