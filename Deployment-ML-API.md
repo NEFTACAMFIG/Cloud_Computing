@@ -11,3 +11,14 @@
   - 5.1 Crear carpeta para los ambientes virtuales `mkdir “Nombre del proyecto”`
   - 5.2 Crear otra carpeta para el proyecto de las APIS `mkdir “Nombre del proyecto”`
     - 5.2.1 Aquí se crea el ambiente virtual `python3 -m venv “Nombre de la API”`
+   
+## UNIR PYCHARM CON EL AMBIENTE VIRTUAL CREADO EN LA MAQUINA VIRTUAL ##
+
+1. Generar un nuevo proyecto en Pycharm
+  - 1.1 Eliminar el ambiente virtual que se creo
+  - 1.2 Ir a `settings` y después `Project`
+  - 1.3 Ir a `Python Interprete` y dar click en `Agregar Interprete`, dar click en `SSH`
+  - 1.4 Dar el Host y el username Host: DNS Publico Username: Ubuntu
+  - 1.5 Indicar como conexión nueva y dar en `NEXT`
+  - 1.6 Validar con una llave, seleccionar la llave generada en AWS, DAR `NEXT`
+  - 1.7 Escoger una locación, el interprete y el folder en donde se va a sincronizar
