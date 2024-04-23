@@ -43,6 +43,15 @@
   - 6.4 `pip install pickle5`
   - 6.5 `pip install mlflow[extras]`
 
+		python:”3.10” ————> Versión de Python
+		build_dependencies:
+			-pip
+		dependencies:
+			- mlflow==2.1.2 ————> Versión de MLFLow
+			- scikit-learn==1.1.1
+			- pandas==1.5.3
+
+
 6. Escribir el código en un archivo .py de nuestro modelo
    
 7. Crear archivo tipo YAML
