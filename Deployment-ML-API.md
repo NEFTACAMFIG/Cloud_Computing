@@ -37,11 +37,20 @@
   - 4.1  `source Nombre del ambiente/bin/activate`
 
 5. Instalar librerías y paquetes
-  - 6.1 `pip install pandas`
-  - 6.2 `pip install -U scikit-learn`
-  - 6.3 `pip install flask`
-  - 6.4 `pip install pickle5`
-  - 6.5 `pip install mlflow[extras]`
+  - 5.1 `pip install pandas`
+  - 5.2 `pip install -U scikit-learn`
+  - 5.3 `pip install flask`
+  - 5.4 `pip install pickle5`
+  - 5.5 `pip install mlflow[extras]`
+
+
+6. Escribir el código en un archivo .py de nuestro modelo
+   
+7. Crear archivo tipo YAML
+  - 7.1 Nombre.yaml
+  - 7.2 Especificar las condiciones con las que se crearon el experimento
+
+Example:
 
 		python:”3.10” ————> Versión de Python
 		build_dependencies:
@@ -50,10 +59,3 @@
 			- mlflow==2.1.2 ————> Versión de MLFLow
 			- scikit-learn==1.1.1
 			- pandas==1.5.3
-
-
-6. Escribir el código en un archivo .py de nuestro modelo
-   
-7. Crear archivo tipo YAML
-  - 7.1 Nombre.yaml
-  - 7.2 Especificar las condiciones con las que se crearon el experimento
