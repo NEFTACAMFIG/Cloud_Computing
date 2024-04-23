@@ -26,3 +26,9 @@
 
 2. Instalar el PYENV `sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev`
   - 2.1 `sudo apt-get install openssl`
+
+3. `git clone https://github.com/pyenv/pyenv.git ~/.pyenv`
+  - 3.1 `export PYENV_ROOT=“$HOME/.pyenv”`
+  - 3.2 `export PATH=“$PYENV_ROOT/bin:$PATH”`
+  - 3.3 `eval “$(pyenv init --path)”`
+  - 3.4 `source ~/.bashrc and pyenv --version`
