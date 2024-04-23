@@ -35,3 +35,10 @@
 
 4. Activar el ambiente virtual
   - 4.1  `source Nombre del ambiente/bin/activate`
+
+5. Instalar librerías y paquetes
+  - 6.1 `pip install pandas`
+  - 6.2 `pip install -U scikit-learn`
+  - 6.3 `pip install flask`
+  - 6.4 `pip install pickle5`
+  - 6.5 `pip install mlflow[extras]`
