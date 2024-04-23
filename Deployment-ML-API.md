@@ -32,3 +32,6 @@
   - 3.2 `export PATH=“$PYENV_ROOT/bin:$PATH”`
   - 3.3 `eval “$(pyenv init --path)”`
   - 3.4 `source ~/.bashrc and pyenv --version`
+
+4. Activar el ambiente virtual
+  - 4.1  `source Nombre del ambiente/bin/activate`
