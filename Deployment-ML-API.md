@@ -42,3 +42,9 @@
   - 6.3 `pip install flask`
   - 6.4 `pip install pickle5`
   - 6.5 `pip install mlflow[extras]`
+
+6. Escribir el código en un archivo .py de nuestro modelo
+   
+7. Crear archivo tipo YAML
+  - 7.1 Nombre.yaml
+  - 7.2 Especificar las condiciones con las que se crearon el experimento
